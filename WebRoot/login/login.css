@@ -1,0 +1,286 @@
+*{
+    font: 13px/1.5 '微软雅黑', Verdana, Helvetica, Arial, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -box-sizing: border-box;
+    padding:0;
+    margin:0;
+    list-style:none;
+    box-sizing: border-box;
+}
+
+body,html{
+    height:100%;
+    overflow:hidden;
+}
+body{
+   /* background:url(../images/web_login_bg.jpg) no-repeat center;
+	background: -webkit-linear-gradient(top, #fff, #70C1C5);*/
+    background-size: cover;
+}
+a{
+    color:#27A9E3;
+    text-decoration:none;
+    cursor:pointer;
+}
+.logo-info{
+   width:1200px;
+   margin: 18px auto 0 auto;
+   height: 2px;
+}
+.logo-info a.logo img {
+    vertical-align: middle;
+    margin-top: 5px;
+    float: left;
+}
+.findpw {
+    border-left: 2px #333 solid;
+    width: auto;
+    height: 36px;
+    line-height: 36px;
+    font-size: 28px;
+    margin: 23px 0px 0px 22px;
+    float: left;
+    padding: 0px 15px;
+    color: #333;
+}
+.adver{
+	vertical-align: middle;
+    margin-top: 5px;
+    float: right;
+}
+.platform_login{
+	background:url(./web_login_bg.png) no-repeat center #039be6;
+	height:500px;
+	margin-top: -40px;
+}
+.wanghang_tab{
+    width: 705px;
+    padding: 40px;
+    margin: 150px 5% 0 auto;
+}
+.tab-list {
+    position: relative;
+	float:left;
+	height:47px;
+	margin-top: 35px;
+}
+.tab-list li{
+	cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 196px;
+	border-bottom: 1px solid #27A9E3;
+	background: #fff;
+    opacity: 0.6;
+    float: left;
+}
+.tab-list li.selectfl{
+	opacity: 1;
+}
+.tab-list li a{
+	width:98px;
+	display:block;
+	padding:10px 0;
+	margin:0 auto;
+	text-align:center;
+	font-size:18px
+}
+.sc-login{
+    min-height: 260px;
+    width: 391px;
+    padding:15px 40px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+	float:left;
+	margin-top: 25px;
+}
+.ewm_login{
+	margin-right:10px;
+	color:#186af2
+}
+.login_zc,.ewm_login{
+	float:right;
+	cursor:pointer
+}
+.whewm_login img{
+	width:150px;
+	height:150px;
+	display:block;
+	margin:0 auto
+}
+.whewm_login span{
+	width:150px;
+	display:block;
+	margin:10px auto 15px auto;
+	text-align:center
+}
+.message {
+    margin: 7px 0 25px -40px;
+    padding: 10px 10px 12px 50px;
+    background: #27A9E3;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+}
+.message span{
+	margin-top: -30px;
+    margin-left: -12px;
+	margin-bottom: 5px;
+    font-size: 20px
+}
+#darkbannerwrap {
+    background: url(../images/aiwrap.png);
+    width: 18px;
+    height: 10px;
+    margin: 0 0 20px -58px;
+    position: relative;
+}
+
+input[type=text],
+input[type=file],
+input[type=password],
+input[type=email], select {
+    border: 1px solid #DCDEE0;
+    vertical-align: middle;
+    border-radius: 3px;
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #555555;
+    outline:none;
+    width:100%;
+}
+input[type=text]:focus,
+input[type=file]:focus,
+input[type=password]:focus,
+input[type=email]:focus, select:focus {
+    border: 1px solid #27A9E3;
+}
+
+
+input[type=submit],
+input[type=button]{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 12px 10px;
+    margin: 0px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #27A9E3;
+    border-radius: 3px;
+    border: none;
+    -webkit-appearance: none;
+    outline:none;
+    width:100%;
+}
+hr.hr15 {
+    height: 15px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+hr.hr20 {
+    height: 20px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.copyright{
+    font-size:14px;
+    color:rgba(255,255,255,0.85);
+    display:block;
+    position:absolute;
+    bottom:15px;
+    right:15px;
+}
+.extranet_login{
+	cursor:pointer;
+	color:#005BA2;
+	margin-left:-426px;
+	background: -webkit-linear-gradient(top,#70C1C5,#70C1C5);
+	padding-left: 355px;
+	padding-bottom:8px;
+	padding-top:8px;
+	padding-right:15px;
+	font-size:
+}
+#imageId{display:none}
+.footer-info {
+    width: 100%;
+    min-width: 1210px;
+    height: auto;
+    padding: 25px 0 15px;
+    font-size: 12px;
+    color: #333;
+    display: inline-block;
+    position: relative;
+    z-index: 101;
+}
+.footer-info .info-text {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-info .info-text p {
+    margin: 3px 0;
+    line-height: 25px;
+}
+.footer-info .info-text p.qualified a {
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+}
+.footer-info .info-text p.qualified a img{
+	border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+.footer-info .info-text p.qualified a img.security {
+    width: 57px;
+    height: 57px;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+.footer-info .info-text .nav-bottom a {
+    padding: 0px 8px;
+    color: #333;
+}
+/* 忘记密码 */
+.forget_password_new .layui-top{
+	margin:4px 0;
+}
+.forget_password_new .layui-top span{
+	width: 100px;
+    text-align: right;
+    display: inline-block;
+    font-size: 15px;
+    color: #000;
+}
+.forget_password_new .layui-top .input-medium{
+	width:200px;
+	display:inline-block
+}
+.forget_password_new .layui-top .input-small{
+	width:150px;
+	display:inline-block
+}
+.forget_password_new .layui-top .yzm_password{
+	width: 108px;
+    display: inline-block;
+    height: 47px;
+    line-height: 47px;
+}

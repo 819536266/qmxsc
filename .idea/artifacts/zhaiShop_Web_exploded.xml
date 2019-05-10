@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="zhaiShop:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/zhaiShop_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="zhaiShop/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="zhaiShop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="json-lib-2.2.3-jdk15.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="commons-beanutils-1.7.0.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="commons-collections-3.2.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="commons-lang-2.4.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="commons-logging-1.0.4.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="ezmorph-1.0.3.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="commons-fileupload-1.2.1.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="commons-io-1.4.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="json_simple-1.1.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="jspsmartupload.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="sqljdbc4.jar" module-name="zhaiShop" />
+          <element id="library" level="module" name="junit4" module-name="zhaiShop" />
+          <element id="file-copy" path="D:/软件/IDEApath/exam2/WebRoot/WEB-INF/lib/jstl-impl.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

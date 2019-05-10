@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="aliyun-java-sdk-core-4.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/aliyun-java-sdk-core-4.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/gson-2.8.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
